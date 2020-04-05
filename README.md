@@ -32,7 +32,8 @@ Rode a aplicação
 mvnw spring-boot:run
 ```
 
-## Variaveis de ambiente
+## Variaveis de ambiente 
+são definidas em: [**application.properties**](./src/main/resources/application.properties)
 
 |                 **Descrição**                      |           **parametro**           |              **Valor padrão**             |
 |----------------------------------------------------|-----------------------------------|-------------------------------------------|
