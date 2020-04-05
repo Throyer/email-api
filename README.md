@@ -32,6 +32,32 @@ Rode a aplicação
 mvnw spring-boot:run
 ```
 
+
+## Funcionamento
+
+exemplo de email:
+```shell
+curl --location --request POST 'http://localhost:8080/example' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "assunto": "Este e um email de exemplo",
+    "template": "example", // este é o nome do arquivo de template
+    "mensagem": "Mensagem do corpo", // variavel mensagem que vai ser passada para o template
+    "destinatarios": [
+        "fulano@email.com",
+        "cicrano@email.com"
+    ]
+}'
+```
+
+template de exemplo:
+```html
+<body>
+    <h1 th:text="${mensagem}"></h1>
+</body>
+```
+
+
 ## Variaveis de ambiente 
 são definidas em: [**application.properties**](./src/main/resources/application.properties)
 
