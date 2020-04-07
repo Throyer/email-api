@@ -67,3 +67,6 @@ são definidas em: [**application.properties**](./src/main/resources/application
 | porta do servidor smtp                             | `port`                            | 587                                       |
 | nome de usuario                                    | `username`                        | user                                      |
 | senha                                              | `password`                        | secret                                    |
+| diretorio dos templates                            | `templates`                       | `src/main/resources/templates/`           |
+| cache                                              | `cache`                           | true                                      |
+
