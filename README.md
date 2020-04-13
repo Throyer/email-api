@@ -1,4 +1,4 @@
-# Spring Boot Email API
+# Spring Boot Email API 📧
 
 Aplicação em spring boot para envio de emails automatizados.
 
