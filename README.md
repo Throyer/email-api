@@ -1,6 +1,7 @@
-# 📧 Spring Boot Email API
-
-Aplicação em spring boot para envio de emails automatizados.
+<h2 align="center">📧 Spring Boot Email API</h2>
+<p align="center">
+    Aplicação em spring boot para envio de emails automatizados.
+</p>
 
 # Requisitos
  - MariaDB: `^10.3.11`
