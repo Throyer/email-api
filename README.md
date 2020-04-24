@@ -1,4 +1,4 @@
-<h2 align="center">📧 Spring Boot Email API</h2>
+<h1 align="center">📧 Spring Boot Email API</h1>
 <p align="center">
     Aplicação em spring boot para envio de emails automatizados.
 </p>
